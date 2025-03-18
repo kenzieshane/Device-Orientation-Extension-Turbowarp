@@ -1,3 +1,5 @@
+// With help using @LilyMakesThings and @BlueDome77's extension as starting point.
+
 (function (Scratch) {
   'use strict';
 
