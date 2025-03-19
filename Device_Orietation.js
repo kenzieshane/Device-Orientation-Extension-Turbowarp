@@ -1,5 +1,5 @@
 // With help using @LilyMakesThings and @BlueDome77's extension as starting point.
-
+// Made by Kenzie Shane Setiawan.
 (function (Scratch) {
   'use strict';
 
@@ -10,6 +10,7 @@
   let allowJSCode = true;
   let ineditor = true;
 
+// Yes, it needs to be run unsandboxed in order to get the orientation data and not stuck on a loading loop, if there's another way, please tell.
   if (!Scratch.extensions.unsandboxed) {
     throw new Error('This extension must run unsandboxed');
   }
